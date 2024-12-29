@@ -48,9 +48,9 @@ export function Navigation() {
           <Button
             variant="outline"
             size="icon"
-            className="lg:hidden fixed left-4 top-4 z-40"
+            className="lg:hidden sticky left-4 top-4 z-40 "
           >
-            <Menu className="h-4 w-4" />
+            <Menu className="h-4 w-4 " />
           </Button>
         </SheetTrigger>
         <SheetContent side="left" className="w-64 p-0">
